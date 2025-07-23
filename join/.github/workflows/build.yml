@@ -27,14 +27,13 @@ jobs:
         mkdir -p src/environments
         cat > src/environments/environment.ts << EOF
         export const firebaseConfig = {
-          apiKey: "AIzaSyAMajQkymTiHB35Z5gmSzy8ezCv432D87A",
-          authDomain: "join-project-a437a.firebaseapp.com",
-          databaseURL: "https://join-project-a437a-default-rtdb.europe-west1.firebasedatabase.app",
-          projectId: "join-project-a437a",
-          storageBucket: "join-project-a437a.firebasestorage.app",
-          messagingSenderId: "848614889298",
-          appId: "1:848614889298:web:c448e996f46de06252cc8b",
-          measurementId: "G-X4R986D1CT"
+          apiKey: "AIzaSyAD-LaplfPho8Q6E3ENiv92uhbCuWQTsKs",
+          authDomain: "join-project-fork.firebaseapp.com",
+          projectId: "join-project-fork",
+          storageBucket: "join-project-fork.firebasestorage.app",
+          messagingSenderId: "945019204928",
+          appId: "1:945019204928:web:d886a5d5586a4b20cb36a5",
+          measurementId: "G-RDKGSLNEJV"
         };
 
         export const environment = {
