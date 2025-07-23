@@ -1,0 +1,1 @@
+ng build join --configuration=production --output-hashing=none
