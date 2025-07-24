@@ -27,7 +27,7 @@ jobs:
         mkdir -p src/environments
         cat > src/environments/environment.ts << EOF
         export const firebaseConfig = {
-          apiKey: "AIzaSyAD-LaplfPho8Q6E3ENiv92uhbCuWQTsKs",
+          apiKey: "",
           authDomain: "join-project-fork.firebaseapp.com",
           projectId: "join-project-fork",
           storageBucket: "join-project-fork.firebasestorage.app",
