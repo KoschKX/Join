@@ -1,2 +1,4 @@
 node_modules
 join/src/environments/environment.ts
+.DS_Store
+join/src/environments/environment.ts

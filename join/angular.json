@@ -97,8 +97,8 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/projects/join/",
-              "deployUrl": "/projects/join/",
+              "baseHref": "/Join/",
+              "deployUrl": "/Join/",
               "externalDependencies": [
                 "assets/icons/todo.svg",
                 "assets/icons/done.svg", 
@@ -110,10 +110,12 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "baseHref": "/",
+              "deployUrl": "/"
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
